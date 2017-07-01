@@ -1,0 +1,35 @@
+[user]
+	name = Martin Kačmar
+	email = martin@kacmar.sk
+	signingkey = 2BCD93CB
+[core]
+	editor = vim
+	ignorecase = false
+	excludesfile = .gitignore
+[merge]
+	tool = vimdiff
+[alias]
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	unmodify = checkout --
+	cb = checkout -b
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	pl = pull --rebase
+[color]
+	ui = true
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[branch]
+	autosetuprebase = always
+[push]
+	default = current
+[gpg]
+	program = gpg2
+	

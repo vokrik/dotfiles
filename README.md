@@ -1,6 +1,5 @@
 # dotfiles
 
-## Steps
+This repository contains set of script to set-up a new system.
 
-1. Install [`homebrew`](https://brew.sh/).
-2. Run `curl -fsSL https://raw.github.com/martinkacmar/dotfiles/master/remote-setup.sh`
+You can run the installation with `curl -fsSL https://raw.github.com/martinkacmar/dotfiles/master/remote-setup.sh`.

@@ -18,3 +18,6 @@ echo_success "homebrew dependencies installed"
 
 ### OSX ###
 $SH_BIN ./osx/setup.sh
+
+### GIT ###
+$SH_BIN ./git/setup.sh
