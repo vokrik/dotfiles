@@ -26,3 +26,6 @@ $BIN_CP ./git/gitignore $HOME/.gitignore
 
 ### vim ###
 $BIN_CP ./vim/vimrc $HOME/.vimrc
+
+### Editorconfig ###
+$BIN_CP ./editorconfig/editorconfig $HOME/.editorconfig
