@@ -29,3 +29,6 @@ $BIN_CP ./vim/vimrc $HOME/.vimrc
 
 ### Editorconfig ###
 $BIN_CP ./editorconfig/editorconfig $HOME/.editorconfig
+
+### fish shell ###
+$SH_BIN ./fish/setup.sh
