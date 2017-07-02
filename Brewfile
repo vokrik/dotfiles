@@ -2,6 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'homebrew/bundle'
 
+brew 'iamy'
 brew 'ansible'
 brew 'awscli'
 brew 'docker'
