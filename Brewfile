@@ -13,7 +13,6 @@ brew 'git-lfs'
 brew 'gnupg2'
 brew 'htop'
 brew 'openssl'
-brew 'sshfs'
 brew 'node'
 
 cask 'dropbox'
