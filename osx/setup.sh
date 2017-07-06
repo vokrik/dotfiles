@@ -51,3 +51,6 @@ chflags nohidden ~/Library
 # Show hidden files and file extensions by default
 defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Install command line tools
+xcode-select --install
