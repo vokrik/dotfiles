@@ -52,5 +52,8 @@ chflags nohidden ~/Library
 defaults write com.apple.finder AppleShowAllFiles -bool true
 defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
+# Disables icon bouncing
+defaults write com.apple.dock no-bouncing -bool false
+
 # Install command line tools
 xcode-select --install
