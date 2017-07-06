@@ -17,9 +17,9 @@ set -e
 echo_success "homebrew dependencies installed"
 
 $SH_BIN ./osx/setup.sh
-$BIN_CP ./git/gitconfig $HOME/.gitconfig
-$BIN_CP ./git/gitignore $HOME/.gitignore
-$BIN_CP ./vim/vimrc $HOME/.vimrc
-$BIN_CP ./editorconfig/editorconfig $HOME/.editorconfig
+$CP_BIN ./git/gitconfig $HOME/.gitconfig
+$CP_BIN ./git/gitignore $HOME/.gitignore
+$CP_BIN ./vim/vimrc $HOME/.vimrc
+$CP_BIN ./editorconfig/editorconfig $HOME/.editorconfig
 $SH_BIN ./fish/setup.sh
 $SH_BIN ./iterm/setup.sh

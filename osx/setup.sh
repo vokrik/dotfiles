@@ -56,4 +56,4 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.dock no-bouncing -bool false
 
 # Install command line tools
-xcode-select --install
+xcode-select -p >/dev/null || xcode-select --install
