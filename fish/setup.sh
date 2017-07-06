@@ -8,7 +8,7 @@ CURL_BIN=/usr/bin/curl
 sudo -v
 
 # Adds fish to supported shells if it's not allowed yet
-$GREP_BIN -q -F $FISH_BIN /etc/shells || echo $FISH_BIN >> /etc/shells
+$GREP_BIN -q -F $FISH_BIN /etc/shells || sudo echo $FISH_BIN >> /etc/shells
 
 # Changes shell to fish
 $CHSH_BIN -s $FISH_BIN
