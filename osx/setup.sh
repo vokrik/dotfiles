@@ -27,6 +27,9 @@ defaults write com.apple.LaunchServices LSQuarantine -bool false
 # Hot corners, 5 stands for screen saver
 defaults write com.apple.dock wvous-bl-corner -int 5
 
+# Only show active apps in Dock
+defaults write com.apple.dock static-only -bool TRUE
+
 # Require password immediately after sleep or screen saver
 defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 0
