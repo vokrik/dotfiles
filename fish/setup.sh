@@ -14,6 +14,6 @@ $GREP_BIN -q -F $FISH_BIN /etc/shells || sudo echo $FISH_BIN >> /etc/shells
 $CHSH_BIN -s $FISH_BIN
 
 # Downloads oh my fish
-$CURL_BIN -L https://get.oh-my.fish | $FISH_BIN
+$CURL_BIN -L https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | $FISH_BIN
 
 omf install mars
