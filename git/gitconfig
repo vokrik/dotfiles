@@ -1,9 +1,8 @@
 [user]
-	name = Martin Kačmar
-	email = martin@kacmar.sk
-	signingkey = 2BCD93CB
+	name = Martin Vokrinek
+	email = vokrik@gmail.com
 [core]
-	editor = vim
+	editor = nano
 	ignorecase = false
 	excludesfile = .gitignore
 [merge]
